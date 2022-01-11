@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | FranciscoDev</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <!-- Styles-->
+    <link rel="stylesheet" href="src/css/main.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+      
+          <div class="navbar-header">
+            <button class="navbar-toggler" data-toggle="open-navbar1">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <a href="#">
+              <h4>Francisco's<span>Blog</span></h4>
+            </a>
+          </div>
+      
+          <div class="navbar-menu" id="open-navbar1">
+            <ul class="navbar-nav">
+              <li class="active"><a href="#">Inicio</a></li>
+              <li class="navbar-dropdown">
+                <a href="#posts" class="dropdown-toggler" data-dropdown="blog">
+                  Blog <i class="fa fa-angle-down"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav> 
+
+      <div class="main">
+          <div>
+              <img src="assets/img/undraw_developer_activity_re_39tg.svg" height="250" alt="">
+          </div>
+        <div> 
+        <h1 id="test">
+            <span class="typer" id="main" data-words="Bienvenido a mi blog" data-delay="100" data-deleteDelay="1000" data-loop="1"></span>
+            <span class="cursor" data-owner="main"></span>
+          </h1>
+        </div>
+      </div>
+
+    <div class="articles">
+        <div class="container-articles" id="posts">
+            <div>
+                <img src="assets/img/banner1.jpg" height="175" alt="">
+                <h1>Lorem Ipsum</h1>
+                <hr>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus unde praesentium excepturi, porro ipsa provident earum quae veniam facilis reprehenderit.</p>
+                <br>
+                <a href="posts/test.html"><span>Read</span></a>
+            </div>
+            <div>
+                <img src="assets/img/undraw_developer_activity_re_39tg.svg" height="250px" alt="">
+                <h1>Lorem Ipsum</h1>
+                <hr>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus unde praesentium excepturi, porro ipsa provident earum quae veniam facilis reprehenderit.</p>
+            </div>
+        </div>
+    </div>
+
+      <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+
+</body>
+</html>
