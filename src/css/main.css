@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 * {
   font-family: "Raleway", sans-serif;
@@ -33,6 +34,11 @@ a {
   padding-right: 15px;
 }
 
+.centrar {
+  display: flex;
+  justify-content: center;
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -56,14 +62,24 @@ a {
   padding: 20px;
 }
 
+.subrayado {
+  text-decoration: underline;
+  color: #6666FF;
+}
+
 .container-articles div h1 {
   font-size: 20px;
   margin-top: 20px;
   margin-bottom: 5px;
 }
 
+.tamaño {
+  font-size: 20px;
+}
+
 .container-articles div p {
   margin-top: 5px;
+  font-size: 30px;
 }
 
 span {

@@ -64,6 +64,10 @@ a {
   }
 }
 
+.centrar {
+  display: flex;
+  justify-content: center;
+}
 
 .main {
     display: flex;
@@ -88,14 +92,22 @@ a {
     padding: 20px;
 }
 
+.subrayado {
+  text-decoration: underline;
+  color: #6666FF;
+}
 .container-articles div h1 {
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 5px;
 }
+.tamaño {
+  font-size: 20px;
+}
 
 .container-articles div p {
     margin-top: 5px;
+    font-size: 30px;
 }
 span {
     color: #6666FF;
